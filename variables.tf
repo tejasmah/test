@@ -5,7 +5,8 @@ variable "aws_region" {
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     =  "pack"
+  //default     =  "pack"
+  public_key = "terra.pem"
 }
 
 variable "instance_type" {
